@@ -15,8 +15,8 @@
 			</div>
 
 			<div class="booking_option left relative book-field">
-				<span class="num_guests block left js_drop_down_btn">Adult / Children</span>
-				<div class="guests js_drop_down p10-5 absolute no-display">
+				<span class="num_guests block left js-book-btn">Adult / Children</span>
+				<div class="guests js-drop-list js-book p10-5 absolute no-display">
 
 					<div class="adult col-6 left">
 						<div class="left">
@@ -57,8 +57,8 @@
 					<input class="zero" name="num_beds" value="" data-rule-required="true" data-msg-required="This field is required"/>
 				</div>
 
-				<span class="num_beds js_drop_down_btn left">Room</span>
-				<ul class="js_drop_down num_bed absolute no-display">
+				<span class="num_beds js-book-btn left">Room</span>
+				<ul class="js-drop-list js-book num_bed absolute no-display">
 					<li class="text-center" data-value="1">1 bed</li>
 					<li class="text-center" data-value="2">2 beds</li>
 					<li class="text-center" data-value="3">3 beds</li>

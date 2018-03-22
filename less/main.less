@@ -684,7 +684,6 @@ h1 {
 	justify-content: center;
 	align-items: stretch;
 	flex-wrap: wrap;
-	padding: 5px 0 40px;
 }
 .booking_option {
 	margin-right: 10px;
@@ -893,7 +892,8 @@ svg {
 	}
 }
 .services {
-	top: 15%;
+	top: 50%;
+	transform: translate(0,-50%);
 	div {
 		p {
 			padding: 50px 0;
@@ -905,7 +905,9 @@ svg {
 			font-size: 0.8em;
 			display: block;
 			margin: 0 auto;
-
+			&:hover {
+				background-color: @gray;
+			}
 		}
 	}
 }
@@ -1094,6 +1096,11 @@ svg {
 		color: @white;
 		font-size: 1.2em;
 		background-color: @black;
+		border: 2px solid @black;
+		&:hover {
+			background-color: @golden;
+			border-color: @white;
+		}
 	}
 }
 .slide_events {
@@ -1107,6 +1114,10 @@ svg {
 		padding: 5px 15px;
 		border: 1px solid @golden;
 		border-radius: 50%;
+		&:hover {
+			color: @gray;
+			border-color: @gray;
+		}
 	}
 	.slide-up {
 		margin-right: 15px;
@@ -1125,9 +1136,7 @@ svg {
 }
 .footer {
 	padding: 20px;
-
 	.logo_footer {
-
 		img {
 			margin: 0 auto;
 		}
@@ -1250,7 +1259,15 @@ svg {
 		right: 20px;
 		width: 50px;
 		height: 30px;
+		border: 2px solid @golden;
+		border-bottom: 0;
 		border-radius: 10px 10px 0 0;
+		background-color: @golden;
+
+		&:hover {
+			background-color: @gray;
+			color: @white
+		}
 	}
 }
 
@@ -1435,6 +1452,10 @@ svg {
 #offer_menu {
 	display: flex;
 	justify-content: center;
+	.active {
+		background-color: @gray;
+		color: @white;
+	}
 	li {
 		padding: 10px;
 		font-size: 1.2em;
@@ -1449,7 +1470,7 @@ svg {
 }
 .price {
 	right: 30px;
-	padding: 30px 5px 10px;
+	padding: 15px 5px 10px;
 	background-color: @golden;
 	span {
 		&:first-child {
@@ -1463,11 +1484,15 @@ svg {
 }
 .offer_container {
 	padding: 60px 0;
+	.active {
+		display: block;
+	}
 }
 .offer {
 	overflow: hidden;
 	padding: 0 15px;
 	margin-bottom: 15px;
+	display: none;
 	&:hover {
 		.offer_name_wrapper {
 			bottom: 90px;
@@ -1475,23 +1500,27 @@ svg {
 	}
 }
 .offer_name_wrapper {
-	bottom: 55px;
+	bottom: 50px;
 	transition: bottom ease 0.5s;
 	-webkit-transition: bottom ease 0.5s;
+	padding: 10px 0;
 }
 .offer_name {
 	background-color: @gray;
-
 	h3 {
 		color: @golden;
 		font-weight: normal;
 	}
-	button {
+	a {
 		background-color: @transparent;
 		border: 1px solid @golden;
 		color: @white;
 		padding: 5px 10px;
 		margin-bottom: 20px;
+		&:hover {
+			color: @golden;
+			border-color: @white;
+		}
 	}
 }
 
@@ -1779,6 +1808,9 @@ svg {
 		background-color: @golden;
 		color: @white;
 		margin-top: 20px;
+		&:hover {
+			background-color: @gray;
+		}
 	}
 }
 
@@ -1865,6 +1897,9 @@ svg {
 		padding: 10px 25px;
 		background-color: @golden;
 		color: @white;
+		&:hover {
+			background-color: @gray;
+		}
 	}
 }
 .contact_wrapper {
@@ -1912,7 +1947,6 @@ svg {
 /**********  BLOG  ***********/
 
 
-
 .page_title {
 	background-color: @gray;
 	p {
@@ -1958,9 +1992,12 @@ svg {
 	button {
 		color: #fff;
 		background-color: #c0b283;
-		font-size: 0.8em;
+		font-size: 1.2em;
 		padding: 10px 40px;
 		margin: 10px 0;
+		&:hover {
+			background-color: @gray;
+		}
 	}
 }
 .comments {
@@ -2003,21 +2040,24 @@ svg {
 
 
 @media  (max-width: 1350px){
+	#services {
+		.room {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 15px 0;
+		}
+	}
 	.services {
-		position: static;
+		transform: translate(0, 0);
+		 position: static;
+
 		> div {
 			width: 100%;
 		}
 	}
-	.service_img {
-		width: 100%;
-		text-align: center;
-		padding-top: 20px;
-		div {
-			width: 80%;
-			margin: 0 auto;
-		}
-	}
+
+
 }
 
 
@@ -2187,6 +2227,9 @@ svg {
 			width: 50%;
 		}
 	}
+	.service_img{
+		width: 90%;
+	}
 }
 
 
@@ -2311,9 +2354,11 @@ svg {
 	.post > div,
 	.hall_description,
 	.header_soc_wrapper,
-	.room_details_wrapper li {
+	.room_details_wrapper li,
+	.service_img {
 		width: 100%;
 	}
+
 	.post_content {
 		padding-left: 0;
 	}

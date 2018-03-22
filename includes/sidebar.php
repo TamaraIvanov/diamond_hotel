@@ -106,7 +106,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 left">
-					<img src="../img/event1.jpg">
+					<img src="img/event1.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -118,7 +118,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 right">
-					<img src="../img/news2.jpg">
+					<img src="img/news2.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -130,7 +130,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 left">
-					<img src="../img/news3.jpg">
+					<img src="img/news3.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -142,7 +142,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 right">
-					<img src="../img/news4.jpg">
+					<img src="img/news4.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -154,7 +154,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 left">
-					<img src="../img/event1.jpg">
+					<img src="img/event1.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -166,7 +166,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 right">
-					<img src="../img/news2.jpg">
+					<img src="img/news2.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -178,7 +178,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 left">
-					<img src="../img/news3.jpg">
+					<img src="img/news3.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -190,7 +190,7 @@
 
 			<div class="news_content clearfix">
 				<div class="col-6 right">
-					<img src="../img/news4.jpg">
+					<img src="img/news4.jpg">
 				</div>
 				<div class="col-6 left">
 					<div class="text_wrapper">
@@ -207,7 +207,7 @@
 
 		<div class="post clearfix p10-0">
 			<div class="col-5 left">
-				<img src="../img/post1.jpg">
+				<img src="img/post1.jpg">
 			</div>
 			<div class="post_content col-7 left">
 				<span>The most expensive room</span>
@@ -221,7 +221,7 @@
 
 		<div class="post clearfix p10-0">
 			<div class="col-5 left">
-				<img src="../img/post1.jpg">
+				<img src="img/post1.jpg">
 			</div>
 			<div class="post_content col-7 left">
 				<span>The most expensive room</span>
@@ -235,7 +235,7 @@
 
 		<div class="post clearfix p10-0">
 			<div class="col-5 left">
-				<img src="../img/post1.jpg">
+				<img src="img/post1.jpg">
 			</div>
 			<div class="post_content col-7 left">
 				<span>The most expensive room</span>

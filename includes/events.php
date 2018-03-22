@@ -1,7 +1,6 @@
 <section id="events" class="clearfix">
 	<div class="events w1170 relative">
 
-
 		<div class="events_wrapper">
 			<div class="events_container">
 				<div class="events_content event_top clearfix">

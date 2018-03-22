@@ -14,7 +14,7 @@
 			<!-- Slide 1 -->
 			<div class="testimonial_content w100p left">
 				<div class="testimonial_image text-center">
-					<img src="../img/testimonial.png">
+					<img src="img/testimonial.png">
 				</div>
 				<h4 class="text-center p10-0">John Smith</h4>
 				<p class="font_bold text-center p10-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem vulputate, consectetur eros vel, semper felis. Etiam sagittis sapien nec ullamcorper mattis. Sed ac dictum nulla. Morbi ultricies justo lectus, eget viverra nulla tempus quis."</p>
@@ -23,7 +23,7 @@
 			<!-- Slide 2 -->
 			<div class="testimonial_content w100p left">
 				<div class="testimonial_image t_align">
-					<img src="../img/testimonial.png">
+					<img src="img/testimonial.png">
 				</div>
 				<h4 class="text-center p10-0">John Lenon</h4>
 				<p class="font_bold text-center p10-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem vulputate, consectetur eros vel, semper felis. Etiam sagittis sapien nec ullamcorper mattis. Sed ac dictum nulla. Morbi ultricies justo lectus, eget viverra nulla tempus quis."</p>
@@ -32,7 +32,7 @@
 			<!-- Slide 3 -->
 			<div class="testimonial_content w100p left">
 				<div class="testimonial_image t_align">
-					<img src="../img/testimonial.png">
+					<img src="img/testimonial.png">
 				</div>
 				<h4 class="text-center p10-0">Alenn Murphy</h4>
 				<p class="font_bold text-center p10-0">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sem vulputate, consectetur eros vel, semper felis. Etiam sagittis sapien nec ullamcorper mattis. Sed ac dictum nulla. Morbi ultricies justo lectus, eget viverra nulla tempus quis."</p>

@@ -2,12 +2,15 @@
 	$(document).ready(function() {
 
 
+        var windowSize = $(window).width();
+
 		$('.top_btn').click(function() {
 			$('html, body').animate({
 				scrollTop: $( "#header").offset().top
 			}, 2000);
-
 		});
+
+		/*
 
 		$('.js_drop_down_btn_menu').click(function(e) {
 			$('.js_drop_down_menu').slideToggle(400);
@@ -32,11 +35,54 @@
 			}
 		});
 
-		$(".language_list li").click(function(){
+		*/
+
+		var dropBtn = $(".js-drop-btn");
+        var bookBtn = $(".js-book-btn");
+        var bookList = $(".js-book");
+		var dropList = $(".js-drop-list");
+        var mainDropList = $(".js-main-drop-list");
+
+		dropBtn.click(function () {
+
+            dropList.slideUp(400);
+
+			$(this).next(".js-drop-list").slideToggle(500);
+
+        });
+        bookBtn.click(function () {
+            bookList.slideUp(400);
+
+            if(windowSize < 1150) {
+                dropList.slideUp(400);
+            }
+            $(this).next(".js-drop-list").slideToggle(500);
+        });
+
+        dropBtn.click(function(e) {
+            e.stopPropagation();
+        });
+        bookBtn.click(function(e) {
+            e.stopPropagation();
+        });
+
+        $('body').click(function () {
+
+        	$(".js-book").slideUp(400);
+            if(windowSize < 1150) {
+                mainDropList.slideUp(400);
+            }
+            if(windowSize < 490) {
+                dropList.slideUp(400);
+            }
+
+        });
+
+
+        $(".language_list li").click(function(){
 			LanguageChoose($(this));
 		});
 
-		slickSlider();
 
 		$(".num_bed").find('li').click(function(){
 			numberBeds($(this));
@@ -45,6 +91,7 @@
 			numberGuests($(this));
 
 		});
+
 
 		$.validator.addMethod("greaterThanDate",
 			function(value, element, params) {
@@ -67,11 +114,12 @@
 
 		$("#book_form").validate();
 
+        slickSlider();
+
 	});
 
 
 	function slickSlider() {
-
 
 		$(".auto_slider").slick({
 			slidesToShow: 1,
@@ -85,16 +133,16 @@
 					breakpoint: 750,
 					settings: {
 						height: 300
-					},
-
-					breakpoint: 700,
-					settings: {
-                        height: 300
 					}
-				}
+				},
+                {
+                    breakpoint: 700,
+                    settings: {
+                        height: 300
+                    }
+                }
 			]
 		});
-
 
 		$('.testimonial_slider_wrapper').slick({
 			infinite: true,
@@ -102,7 +150,6 @@
 			prevArrow: $('.slide-buttons'),
 			nextArrow: $('.slider_arrow_next')
 		});
-
 
 		$('.events_wrapper').slick({
 			infinite: true,
@@ -112,7 +159,6 @@
 			vertical: true,
 			prevArrow: $('.slide-up'),
 			nextArrow: $('.slide-down'),
-
 			responsive: [
 				{
 					breakpoint: 950,
@@ -132,9 +178,6 @@
 			vertical: true,
 			prevArrow: $('.news_slider_btn_up'),
 			nextArrow: $('.news_slider_btn_down')
-
-
-
 		});
 
 		$('#room_details').find('.offer_container').slick({
@@ -151,15 +194,16 @@
 					settings: {
 						slidesToShow: 1,
 						slidesToScroll: 1
-					},
-
-					breakpoint: 700,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1,
-						prevArrow: false,
-						nextArrow: false
 					}
+				},
+				{
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        prevArrow: false,
+                        nextArrow: false
+                    }
 				}
 			]
 		});
@@ -176,12 +220,11 @@
 
 	function numberGuests(elem) {
 
-
 		var input = elem.closest('div').siblings('.visitors');
 		var numGuests = parseInt(input.val());
 		var type = elem.data('type');
 
-		if(type == 'decrease') {
+		if(type === 'decrease') {
 			if (numGuests > 0) {
 				numGuests--;
 			}
@@ -190,7 +233,6 @@
 		}
 
 		input.val(numGuests);
-
 	}
 
 	function numberBeds(elem) {
@@ -202,17 +244,13 @@
 		var input = elem.closest('.booking_option').find('[name="num_beds"]');
 
 		input.val(value);
-
 	}
 
 	function swapPositionDate(date) {
 
 		var dateParams = date.split(".");
 		return dateParams[1]+'/'+dateParams[0]+'/'+dateParams[2];
-
 	}
-
-
 })(jQuery);
 
 

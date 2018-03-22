@@ -7,20 +7,20 @@
 				<span class="text-center">Diamond</span>
 				<span class="text-center">Hotel</span>
 			</div>
-			<img src="../img/logo_footer.png">
+			<img src="img/logo_footer.png">
 		</div>
 
 		<div class="links_wrapper col-4 left p20-0">
 			<span class="text_uppercase">links</span>
 			<ul class="p15">
-				<li class="text_uppercase p10-0"><a href="../pages/index.php">home</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/about_us.php">about us</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/check_list.php">rooms</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/conference.php">conference</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/restaurant.php">restaurant</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/reservations.php">reservations</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/blog.php">blog</a></li>
-				<li class="text_uppercase p10-0"><a href="../pages/contact.php">contact</a></li>
+				<li class="text_uppercase p10-0"><a href="index.php">home</a></li>
+				<li class="text_uppercase p10-0"><a href="about_us.php">about us</a></li>
+				<li class="text_uppercase p10-0"><a href="check_list.php">rooms</a></li>
+				<li class="text_uppercase p10-0"><a href="conference.php">conference</a></li>
+				<li class="text_uppercase p10-0"><a href="restaurant.php">restaurant</a></li>
+				<li class="text_uppercase p10-0"><a href="reservations.php">reservations</a></li>
+				<li class="text_uppercase p10-0"><a href="blog.php">blog</a></li>
+				<li class="text_uppercase p10-0"><a href="contact.php">contact</a></li>
 			</ul>
 		</div>
 
@@ -28,27 +28,27 @@
 			<span class="text_uppercase">instagram feeds</span>
 			<div class="gallery_wrapper clearfix p20-0">
 				<div class="gallery_img left">
-					<img src="../img/gallery1.jpg">
+					<img src="img/gallery1.jpg">
 				</div>
 
 				<div class="gallery_img left">
-					<img src="../img/gallery2.jpg">
+					<img src="img/gallery2.jpg">
 				</div>
 
 				<div class="gallery_img left">
-					<img src="../img/gallery3.jpg">
+					<img src="img/gallery3.jpg">
 				</div>
 
 				<div class="gallery_img left">
-					<img src="../img/gallery4.jpg">
+					<img src="img/gallery4.jpg">
 				</div>
 
 				<div class="gallery_img left">
-					<img src="../img/gallery5.jpg">
+					<img src="img/gallery5.jpg">
 				</div>
 
 				<div class="gallery_img left">
-					<img src="../img/gallery6.jpg">
+					<img src="img/gallery6.jpg">
 				</div>
 			</div>
 		</div>
@@ -68,14 +68,11 @@
 		<button class="top_btn absolute" title="top"><i class="material-icons">keyboard_arrow_up</i></button>
 	</div>
 
-
-
-
 </footer>
 
-<script src="../js/jquery-3.1.1.js"></script>
-<script type="text/javascript" src="../js/slick/slick/slick.min.js" charset="utf-8"></script>
-<script src="../js/jquery.validate.js"></script>
-<script src="../js/jquery-ui.js"></script>
-<script src="../js/main.js"></script>
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/slick/slick/slick.min.js" charset="utf-8"></script>
+<script src="js/main.js"></script>
 

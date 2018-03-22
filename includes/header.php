@@ -1,8 +1,8 @@
 <header  id="header">
 	<div class="header_top p20 w1170 clearfix">
 		<div class="language_wrapper left relative p10-0">
-			<div class="language_choice js_drop_down_btn">english</div>
-			<ul class="language_list js_drop_down absolute clearfix no-display">
+			<div class="language_choice js-book-btn">english</div>
+			<ul class="language_list js-book js-drop-list absolute clearfix no-display">
 				<li class="text_uppercase font_bold" data-name="english">english</li>
 				<li class="text_uppercase font_bold" data-name="german">german</li>
 				<li class="text_uppercase font_bold" data-name="french">french</li>
@@ -24,18 +24,18 @@
 
 		<div class="main_menu_inner clearfix w1170 relative p0-20 text-center">
 
-			<button type="button" class="js_filter_btn js_drop_down_btn_menu no-display"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
+			<button type="button" class="js_filter_btn js_drop_down_btn_menu js-drop-btn no-display"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></button>
 
-			<div class="nav_menu js_drop_down_menu left t_center w100p">
+			<div class="nav_menu js-main-drop-list js-drop-list left t_center w100p">
 				<ul class="clearfix">
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/index.php">home</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/about_us.php">about us</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/check_list.php">rooms</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/conference.php">conference hall</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/restaurant.php">restaurant</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/reservations.php">reservations</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/blog.php">blogs</a></li>
-					<li class="left text_uppercase font_bold p0-10"><a href="../pages/contact.php">contact</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="index.php">home</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="about_us.php">about us</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="check_list.php">rooms</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="conference.php">conference hall</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="restaurant.php">restaurant</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="reservations.php">reservations</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="blog.php">blogs</a></li>
+					<li class="left text_uppercase font_bold p0-10"><a href="contact.php">contact</a></li>
 				</ul>
 			</div>
 
@@ -47,7 +47,7 @@
 
 				<div class="logo_wrapper absolute"></div>
 				<div id="logo" class="absolute">
-					<img src="../img/logo_footer.png">
+					<img src="img/logo_footer.png">
 				</div>
 			</div>
 		</div>
