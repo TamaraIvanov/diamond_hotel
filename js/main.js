@@ -10,32 +10,6 @@
 			}, 2000);
 		});
 
-		/*
-
-		$('.js_drop_down_btn_menu').click(function(e) {
-			$('.js_drop_down_menu').slideToggle(400);
-			e.stopPropagation();
-		});
-
-		$(".js_drop_down_btn").click(function(e){
-			var $dropMenu = $(this).siblings(".js_drop_down");
-			$dropMenu.slideToggle(400);
-			$('.js_drop_down').not($dropMenu).slideUp(400);
-			e.stopPropagation();
-		});
-
-		$('.js_drop_down, .js_drop_down_menu').click(function(e) {
-			e.stopPropagation();
-		});
-
-		$('body').click(function () {
-			$('.js_drop_down').slideUp(400);
-			if($('.js_drop_down_btn_menu').is(':visible')) {
-				$('.js_drop_down_menu').slideUp(400);
-			}
-		});
-
-		*/
 
 		var dropBtn = $(".js-drop-btn");
         var bookBtn = $(".js-book-btn");
@@ -180,33 +154,7 @@
 			nextArrow: $('.news_slider_btn_down')
 		});
 
-		$('#room_details').find('.offer_container').slick({
-			infinite: true,
-			slidesToShow: 2,
-			slidesToScroll: 1,
-			dots: true,
-			prevArrow: $('.slide-buttons'),
-			nextArrow: $('.slider_arrow_next'),
 
-			responsive: [
-				{
-					breakpoint: 800,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1
-					}
-				},
-				{
-                    breakpoint: 700,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        prevArrow: false,
-                        nextArrow: false
-                    }
-				}
-			]
-		});
 
 	}
 

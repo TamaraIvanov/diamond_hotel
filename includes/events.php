@@ -9,7 +9,7 @@
 						<h3 class="text-center">Acoustic concert</h3>
 						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat lorem dui, quis luctus augue laoreet vel. Ut tempor metus vitae nisl auctor commodo.</p>
 						<div class="p5-0 text-center">
-							<a href="#" class="p10">Read more</a>
+                            <button type="button">Read more</button>
 						</div>
 					</div>
 
@@ -31,7 +31,7 @@
 						<h3 class="text-center">New Year's Celebration</h3>
 						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat lorem dui, quis luctus augue laoreet vel. Ut tempor metus vitae nisl auctor commodo.</p>
 						<div class="p5-0 text-center">
-							<a href="#" class="p10">Read more</a>
+                            <button type="button">Read more</button>
 						</div>
 					</div>
 				</div>
@@ -45,7 +45,7 @@
 						<h3 class="text-center">Solo concert</h3>
 						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat lorem dui, quis luctus augue laoreet vel. Ut tempor metus vitae nisl auctor commodo.</p>
 						<div class="p5-0 text-center">
-							<a href="#" class="p10">Read more</a>
+                            <button type="button">Read more</button>
 						</div>
 					</div>
 
@@ -67,7 +67,7 @@
 						<h3 class="text-center">Christmas Celebration</h3>
 						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat lorem dui, quis luctus augue laoreet vel. Ut tempor metus vitae nisl auctor commodo.</p>
 						<div class="p5-0 text-center">
-							<a href="#" class="p10">Read more</a>
+                            <button type="button">Read more</button>
 						</div>
 					</div>
 				</div>

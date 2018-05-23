@@ -27,13 +27,12 @@ textarea {
 }
 @font-face {
 	font-family: OpenSans;
-	src: url(fonts/OpenSans-Regular.ttf);
+	src: url(../css/fonts/OpenSans-Regular.ttf););
 }
 body {
 	font-family: OpenSans;
 	font-size: 13px;
 }
-
 .block {
 	display: block;
 }
@@ -91,7 +90,6 @@ body {
 	padding: 0 !important;
 	border: 0 !important;
 }
-
 .w1170{
 	width: 100%;
 	max-width: 1170px;
@@ -488,9 +486,13 @@ h1 {
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url(material-icons/MaterialIcons-Regular.eot);
+	src: url(../css/material-icons/MaterialIcons-Regular.eot);
 	/* For IE6-8 */
-	src: local('Material Icons'), local('MaterialIcons-Regular'), url(material-icons/MaterialIcons-Regular.woff2) format('woff2'), url(material-icons/MaterialIcons-Regular.woff) format('woff'), url(material-icons/MaterialIcons-Regular.ttf) format('truetype');
+	src: local('Material Icons'), local('MaterialIcons-Regular'),
+	url(material-icons/MaterialIcons-Regular.woff2)
+	format('woff2'), url(material-icons/MaterialIcons-Regular.woff)
+	format('woff'), url(material-icons/MaterialIcons-Regular.ttf)
+	format('truetype');
 }
 .material-icons {
 	font-family: 'Material Icons';
@@ -1079,6 +1081,7 @@ svg {
 		background-size: 100% 100%;
 	}
 }
+
 .events_news {
 	padding: 20px 15px;
 	h3 {
@@ -1092,11 +1095,15 @@ svg {
 		font-size: 1.6em;
 		padding: 10px 0 60px;
 	}
-	a {
+	button {
 		color: @white;
 		font-size: 1.2em;
 		background-color: @black;
 		border: 2px solid @black;
+		padding: 5px 10px;
+		transition: .6s ease;
+		-webkit-transition: .6s ease;
+
 		&:hover {
 			background-color: @golden;
 			border-color: @white;
